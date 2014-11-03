@@ -38,4 +38,5 @@ b = float(sumy)/n - float(k * sumx) / n
 plt.plot([i[0] for i in dots], 
     [nihezhixian(k, i[0], b) for i in dots])
 
+
 plt.show()
